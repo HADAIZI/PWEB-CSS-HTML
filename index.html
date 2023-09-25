@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yep That's Me</title>
+    <!-- Add Bootstrap CSS and JS links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+    <!-- Navbar -->
+    
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">IDK</h1>
+            <ul class="nav-links">
+                <li><a href="#">HOME</a></li> <!-- Change the href attribute to "#" -->
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portofolio">PORTOFOLIO</a></li> 
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bootstrap Carousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img id="carousel-image-1" src="Images/wp4289085.jpg" alt="ZON" class="slide-up">
+            </div>
+            <div class="carousel-item">
+                <img id="carousel-image-2" src="Images/rbr.jpg" alt="RB18">
+            </div>
+            <div class="carousel-item">
+                <img id="carousel-image-3" src="Images/wp3695473-aston-martin-valkyrie-wallpapers.jpg" alt="AMV" class="slideup">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Detail About Myself -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">ABOUT ME</h2>
+            <p class="section-subtitle">I Don't Know Why I am Here</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                </div>
+                <div class="about-image">
+                    <img src="Images/profile.jpeg" alt="My Photo" width="200" height="200">
+                </div>
+            </div>
+            <div class="skills">
+                <h2 class="section-title">Skills:</h2>
+                <div class="skill">
+                    <span class="skill-name">Python</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">Javascript</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">MySQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">Node Js.</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span class="skill-name">PHP</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 65%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second Parallax Image -->
+    <header class="bgimg-2" id="home">
+        <div class="bgimg-2-image"></div>
+        <div class="container">
+            <h1 class="logo-text">PORTFOLIO</h1>
+        </div>
+    </header>
+
+    <!-- Portofolio -->
+    <section id="portofolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">My Past Projects</h2>
+            <p class="section-subtitle">Here are some of my past projects</p>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="Images/sign-language-glove.webp" alt="Project 1">
+                    <div class="overlay">
+                        <h3>Project 1</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/Untitled-1.png" alt="Project 2">
+                    <div class="overlay">
+                        <h3>Project 2</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/tutsplus_chat_app.jfif" alt="Project 3">
+                    <div class="overlay">
+                        <h3>Project 3</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/1273d900-3fd8-11eb-8e0d-2c2d9031477b.jfif" alt="Project 4">
+                    <div class="overlay">
+                        <h3>Project 4</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/Movie-Recommendation-Engine-550x550.png" alt="Project 5">
+                    <div class="overlay">
+                        <h3>Project 5</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/E-Commerce-Website-550x526.png" alt="Project 6">
+                    <div class="overlay">
+                        <h3>Project 6</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+      <!-- First Parallax Image -->
+      <header class="bgimg-1" id="home">
+        <div class="bgimg-1-image"></div>
+        <div class="container">
+            <h1 class="logo-text">Experience</h1>
+        </div>
+    </header>
+
+        <!-- Work History Section -->
+    <section id="work-history" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Work History</h2>
+            <p class="section-subtitle">My Work Experience</p>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="Images/sch 1.png" alt="Job 1">
+                    <div class="overlay">
+                        <h3>Job Title 1</h3>
+                        <p>Company Name 1</p>
+                        <p>Start Date 1 - End Date 1</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/logo-sch-2022.webp" alt="Job 2">
+                    <div class="overlay">
+                        <h3>Job Title 2</h3>
+                        <p>Company Name 2</p>
+                        <p>Start Date 2 - End Date 2</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/download.png" alt="Job 3">
+                    <div class="overlay">
+                        <h3>Job Title 3</h3>
+                        <p>Company Name 3</p>
+                        <p>Start Date 3 - End Date 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">My Educational Background</p>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="Images/Lambang-ITS-2-300x300.png" alt="School 1">
+                    <div class="overlay">
+                        <h3>Degree 1</h3>
+                        <p>School/University Name 1</p>
+                        <p>Graduation Year 1</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/SMA_Negeri_6_Yogyakarta_logo.png" alt="School 2">
+                    <div class="overlay">
+                        <h3>Degree 2</h3>
+                        <p>School/University Name 2</p>
+                        <p>Graduation Year 2</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Images/LOGO_FULL-removebg-preview.png" alt="School 3">
+                    <div class="overlay">
+                        <h3>Degree 2</h3>
+                        <p>School/University Name 2</p>
+                        <p>Graduation Year 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Third Parallax Image -->
+    <header class="bgimg-3" id="home">
+        <div class="bgimg-3-image"></div>
+        <div class="container">
+            <h1 class="logo-text">CONTACT</h1>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to Contact Me</p>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <i class="fa fa-phone"></i>
+                    <p>Phone: +62 82115890010</p>
+                </div>
+                <div class="contact-details">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Surabaya, IDN</p>
+                </div>
+                <div class="contact-details">
+                    <i class="fa fa-envelope"></i>
+                    <p>Email: adamhadaizi2002@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="/action_page.php" target="_blank">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Message" required name="Message">
+                    </div>
+                    <button type="submit" class="submit-button">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="#home" class="back-to-top">Back to Top</a>
+            <div class="social-icons">
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-github"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
